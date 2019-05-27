@@ -66,7 +66,7 @@ class _DesertPageState extends State<DesertPage> {
                     Navigator.push(context,
                         MaterialPageRoute(
                             builder: (context)  =>
-                                DetilMakanan(makanan: makanans[i].strMeal, gambar: makanans[i].strMealThumb, id: makanans[i].idMeal,)
+                                DetilMakanan(id: makanans[i].idMeal,)
                         )
                     );
                   },

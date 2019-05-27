@@ -66,9 +66,7 @@ class _SeafoodPageState extends State<SeafoodPage> {
                     Navigator.push(context,
                         MaterialPageRoute(
                             builder: (context) =>
-                                DetilMakanan(makanan: makanans[i].strMeal,
-                                  gambar: makanans[i].strMealThumb,
-                                  id: makanans[i].idMeal,)
+                                DetilMakanan( id: makanans[i].idMeal,)
                         )
                     );
                   },
