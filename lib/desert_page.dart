@@ -15,7 +15,7 @@ class _DesertPageState extends State<DesertPage> {
 
 
   loadData() async {
-    String dataURL = "https://www.themealdb.com/api/json/v1/1/filter.php?c=Desert";
+    String dataURL = "https://www.themealdb.com/api/json/v1/1/filter.php?c=Dessert";
 
     http.Response response = await http.get(dataURL);
     var responseJson = JSON.jsonDecode(response.body);

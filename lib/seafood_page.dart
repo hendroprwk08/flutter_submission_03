@@ -13,7 +13,6 @@ class _SeafoodPageState extends State<SeafoodPage> {
 
   List<Makanan> makanans = [];
 
-
   loadData() async {
     String dataURL = "https://www.themealdb.com/api/json/v1/1/filter.php?c=Seafood";
 
